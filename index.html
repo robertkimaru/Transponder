@@ -1,0 +1,1621 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Software de rastreo GPS y telemetría amigable e intuitiva para proveedores de servicios, totalmente personalizable con funciones que te ayudarán a satisfacer las necesidades de tus clientes."/>
+    <meta name="keywords" content="Software de rastreo gps, plataforma de rastreo gps, proveedor software de rastreo gps, telemetría vehicular, rastreo GPS"/>  
+
+    <title>TransponderGPS: Software de Rastreo GPS</title>
+	
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    
+    
+    <!-- Animate CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    
+    <!-- Owl-Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css" >
+    <link rel="stylesheet" href="css/owl.transitions.css" >
+
+    <!-- Custom CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="images/iso.png" />
+    
+    <!-- Colors CSS -->
+    <link rel="stylesheet" type="text/css" href="css/color/green.css">
+    <link rel="stylesheet" type="text/css" href="css/color/blue.css" title="blue">
+    
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    
+    
+    <!-- Modernizer js -->
+    <script src="js/modernizr.custom.js"></script>
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78916131-3', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+ <style>
+            .dropdown-menu { background-color:black;
+			text-align:right;}
+			
+			.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu > .active > a:hover { background-color: transparent;}
+			
+			.dropdown>a:hover, .dropdown>a:focus { 
+			color: #097fd4 !important;
+			background-color:transparent !important;}
+			
+			.dropdown > .active > a:hover { color:red !important;}
+			
+			input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+} 
+
+    .guion{
+		color:#097fd4;
+		font-weight: bold;}
+	
+	.animated2{
+		width:85%;}	
+		
+	.carousel-inner .slider-content img{
+		margin-left:50px;
+		}	
+	
+	               .welcome-section p .nm{
+					margin-bottom:-5px;}
+					
+				
+					 
+				.feature-section .white2{
+					font-size:1em;}
+					
+				.feature-section .titulo{
+					font-size:1.1em;
+					letter-spacing:1px;}	
+				 
+				   #service h4 {
+			margin-top:30px;
+			}
+			
+		.pull-left a [title]:{
+    background: #fff;
+    border: 1px solid red;
+    padding: 3px 10px;
+}
+
+		 
+	.section-title .white3{
+		color:white;
+}
+
+	 .white-text2 input{
+				   width:90px;
+				   padding: 15px;
+				   color:#0d89df;
+				     -webkit-border-radius:3px;
+   					 -moz-border-radius:3px;
+   					 -o-border-radius:3px;
+   						border-radius:3px;} 
+					
+				  .portfolio-section-1 ul li {
+					   list-style-position:inside;
+					 border: 2px solid #097fd4;
+					 padding:100px;
+						}	
+					
+					.de{
+						width:600px;}
+					
+					.de2 {
+						width:80%;}
+					
+					.txtblanco{
+						color:white;
+						font-size:18px;}
+					
+					.txtblanco2{
+						color:white;
+						font-size:24px;}	
+					
+						.black{
+					color:black;
+						}	
+				
+				   .btnDemo2{
+		background-color:green;}
+		
+		.footer-contact-info li{
+				margin-bottom:8px;}	
+		 .dd{
+					margin-bottom:10px;}			
+            		 
+	.cot{
+		color:white;
+}
+
+	.txt5{
+		margin-top:30px;
+		color:white;
+		font-size:20px;
+}
+            
+            </style>
+
+</head>
+   
+<body class="index">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display-->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="images/Logotranponder.png" alt="Logo tranponder"></a>
+            </div>
+            
+           
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                     <li>
+                        <a class="page-scroll" href="#feature">Ventajas</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#service">Funciones</a>
+                    </li>
+                    <li class="dropdown">
+        				 <a class="page-scroll" data-toggle="dropdown" href="#">Tour <span class="caret"></span></a>
+      				  <ul class="dropdown-menu">
+         			 	<li><a href="#portfolio" class="page-scroll">Interfaz</a></li> 
+                        <li><a href="weblocator.html">Weblocator</a></li>
+                        <li><a href="Mensajeria.html">Mensajería en el mapa</a></li>
+        			 </ul>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#apps">App Móviles</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#pricing">Cotización</a>
+                    </li>
+                    
+                    <li class="dropdown">
+        				 <a class="page-scroll" data-toggle="dropdown" href="#">Soluciones <span class="caret"></span></a>
+      				  <ul class="dropdown-menu">
+         			 	<li><a href="http://www.prossea.com/simulador.html#dispo" target="_blank">Dispositivos</a></li> 
+                        <li><a href="http://www.prossea.com/simulador.html#tab_tab6">SIM's</a></li>
+        			 </ul>
+                    </li>
+                    
+                    <li>
+                        <a class="page-scroll" href="#contact">Contacto</a>
+                    </li>
+                     <li>
+                        <a class="page-scroll" href="http://www.transpondergps.mx/login/" target="_blank">Login</a>
+                    </li>
+                    <!--<li>
+                        <a class="page-scroll" href="http://www.transpondergps.net/" target="_blank"><div class="fa fa-user"></div> Login</a>
+                    </li>-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+ 
+    
+    <!-- Start Home Page Slider -->
+    <section id="page-top">
+        <!-- Carousel -->
+        <div id="main-slide" class="carousell slide" data-ride="carousel">
+        
+            <div class="carousel-inner"><!-- Carousel inner -->
+                <div class="item active"><!-- item active -->
+                    <img class="img-responsive" src="images/header-bg-1.jpg" alt="slider">
+                    <div class="slider-content"><!-- slider-content -->
+                    
+                        <div class="col-md-12 text-center">
+                          <h1><span><strong>El mejor</strong>  y más completo <strong> software de rastreo</strong> GPS y telemetría para tu empresa.</span></h1>
+                          </div>
+                            
+                            <div class="col-md-5  text-center">
+                            <img src="images/CompusPrincipal.png" class="img-responsive" alt="Interfaz plataforma en diferentes dispositivos">
+                        	</div>
+                            
+                            <div class="col-md-6 col-md-offset-1  text-justify"><br><br>
+                            <p class="animated2"> Plataforma de rastreo GPS y telemetría amigable e intuitiva para proveedores de servicios, totalmente personalizable con funciones que te ayudarán a satisfacer las necesidades de tus clientes. </p>
+                        	</div>
+                            
+                            </div><!--/ slider-content--> 
+                        </div><!--/  item active-->
+                    </div><!--/ Carousel inner-->
+                </div> <!--/ Carousel-->
+                
+    </section><!-- End Home Page Slider -->
+
+    				
+                 
+
+
+                
+                
+               
+  <!-- Start Call to Action Section -->
+    <section id="feature" class="feature-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                <div class="section-title text-center">
+                <h2 style="font-family:'Oswald', sans-serif; color:#666; font-size:30px; line-height:40px; text-transform:none;">Excelencia en software de rastreo gps para nuestros clientes  </h2> <br><br><br><br>
+                </div>
+                
+                
+                 <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="feature">
+                            <i class="fa "> <img src="images/icono-responsivo.png" class="" alt="icono responsivo"></i>
+                            <div class="feature-content">
+                                <h4 class="titulo">Interfaz</h4>
+                                <p class="white2">Diseño moderno, amigable e Inteligente que facilitará su uso y permitirá aprovechar las funciones al máximo para brindar un servicio eficiente.</p>
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-3 -->
+                        
+                          <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="feature">
+                            <i class="fa fa-check-circle"></i>
+                            <div class="feature-content">
+                                <h4 class="titulo">Estabilidad</h4>
+                                <p class="white2">99.9% del tiempo en correcto funcionamiento. Le brindamos seguridad y confianza al no tener interrupciones en sus actividades. </p>
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-3 -->
+                    
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="feature">
+                            <i class="fa fa-share-alt"></i>
+                            <div class="feature-content">
+                                <h4 class="titulo">Compatibilidad</h4>
+                                <p class="white2">Nuestra plataforma cuenta con más de 300 modelos de dispositivos de rastreo GPS integrados y la lista sigue creciendo. </p>
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-3 -->
+                    
+                   
+                    
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="feature">
+                           <i class="fa "> <img src="images/icono-soporte.png" alt="icono soporte"> </i>
+                            <div class="feature-content">
+                                <h4 class="titulo">Soporte</h4>
+                                <p class="white2">Técnicos Disponibles las 24 horas del día todo el año para apoyarle en cualquier solicitud.</p>
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-3 -->
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Call to Action Section -->
+    
+    
+    
+ 													<!-- FUNCIONES -->
+        <section id="service" class="services-section">
+            <div class="container">
+            
+            
+                <div class="row"> <!-- Comienza funciones -->
+                    <div class="col-md-12">
+                        <div class="section-title text-center">
+                            <h2 style="font-family:'Oswald', sans-serif; color:#666; font-size:30px; line-height:40px; text-transform:none;">Funciones</h2>
+                            <p style="line-height:25px;">Además de las funciones principales de todo software de rastreo GPS como lo son: Localización en tiempo real, Geoceras, alertas, puntos de interés, etc: Transponder GPS ofrece funciones innovadoras y avanzadas que permitirán agregar ventajas competitivas a las empresas de rastreo gps. </p>
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feature-2">
+                            <div class="media">
+                                <div class="pull-left">
+                            <a href="#"  rel="clickover" title="Activación automática" data-content="Cuando el usuario añade un dispositivo a su cuenta, Transponder GPS automáticamente hace toda la programación utilizando la tecnología over-the-air solamente con introducir el número telefónico de la tarjeta SIM instalada en el dispositivo GPS.">     
+                                    <i class="fa fa-power-off"></i>
+                            </a>         
+                                    <div class="border"></div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading" title="hahahah">Activación automática</h4>
+                                    <!--<p>Descripcion...</p>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-4 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feature-2">
+                            <div class="media">
+                                <div class="pull-left">
+                            <a href="#" class="" rel="clickover" title="Conducción ecológica" data-content="Configura parámetros de comportamiento de conducción, como un límite para frenadas o aceleraciones bruscas, giros o la duración máxima para régimen de ralentí.">     
+                                    <i class="fa fa-truck"></i>
+                            </a>         
+                                    <div class="border"></div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Conducción ecológica</h4>
+                                   <!-- <p>Descripcion...</p>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-4 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feature-2">
+                            <div class="media">
+                                <div class="pull-left">
+                            <a href="#" class="" rel="clickover" title="Mapas configurables" data-content="El usuario podrá elegir la visualización de su monitoreo entre 7 mapas diferentes, con el fin de mejorar la experiencia de trabajo en nuestro software de rastreo GPS.">    
+                                    <i class="fa fa-map-o"></i>
+                            </a>         
+                                    <div class="border"></div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Mapas configurables</h4>
+                                    <!--<p>Descripcion...</p>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-4 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feature-2">
+                            <div class="media">
+                                <div class="pull-left">
+                            <a href="#" class="" rel="clickover" title="Planes, facturación y pagos" data-content="Transponder GPS te permite elegir ciclos de facturación, establecer tarifas y cuotas para todos tipos de servicios, aplicar restricciones para el uso de herramientas particulares de software de rastreo GPS.">    
+                                    <i class="fa fa-money"></i>
+                              </a>         
+                                    <div class="border"></div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Planes, facturación y pagos</h4>
+                                    <!--<p>Descripcion...</p>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-4 -->
+                   <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feature-2">
+                            <div class="media">
+                                <div class="pull-left">
+                            <a href="#"  rel="clickover" title="Programación de Mantenimientos" data-content="Nuestro software de rastreo GPS permite llevar una bitácora de mantenimientos preventivos y correctivos para las unidades en uso, además se puede configurar alertas o notificaciones por SMS y correos electrónicos.">     
+                                    <i class="fa fa-cubes"></i>
+                            </a>         
+                                    <div class="border"></div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading" title="hahahah">Programación de Mantenimientos</h4>
+                                    <!--<p>Descripcion...</p>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-4 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feature-2">
+                            <div class="media">
+                                <div class="pull-left">
+                            <a href="#" class="" rel="clickover" title="Gestión remota de Equipos GPS" data-content="Para la configuración de los dispositivos GPS más utilizados Transponder GPS proporciona una interfaz gráfica con controles fáciles de usar para que los usuarios puedan ajustar estos parámetros de una manera conveniente.">     
+                                    <i class="fa fa-wrench"></i>
+                            </a>         
+                                    <div class="border"></div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Gestión remota de Equipos GPS</h4>
+                                   <!-- <p>Descripcion...</p>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-4 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feature-2">
+                            <div class="media">
+                                <div class="pull-left">
+                            <a href="#" class="" rel="clickover" title="Administración de vehículos" data-content="El usuario podrá mantener un control de los vehículos de su flota, obteniendo información rápida y detallada de la unidad, tipo de combustible que utiliza la unidad, vigencia de la póliza de seguro, capacidad de carga, etc.">    
+                                    <i class="fa fa-car"></i>
+                            </a>         
+                                    <div class="border"></div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Administración de vehículos</h4>
+                                    <!--<p>Descripcion...</p>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-4 -->
+                    
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feature-2">
+                            <div class="media">
+                            
+                                <div class="pull-left">
+                            <a href="#" class="" rel="clickover" title="Administración de empleados" data-content="Transponder GPS te permitirá llevar una base de datos de empleados o choferes de las unidades, podrás obtener información como datos de contacto y vigencia de licencia de conducir y relacionarlos con un vehículo o tracker para facilitar el monitoreo. ">    
+                                    <i class="fa fa-address-card-o"></i>
+                              </a>         
+                                    <div class="border"></div>
+                                </div>
+                                
+                                <div class="media-body">
+                                    <h4 class="media-heading">Administración de empleados</h4>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-4 -->
+                    
+                    
+                     <div class="col-md-4 text-center">
+                        <div class="feature-2">
+                            <div class="media">
+                            
+                                <div class="pull-left">
+                           			  
+                                    <i class="fa fa-plus"></i>
+                                    <div class="border"></div>
+                                </div>   
+                                    <div class="media-body"> 
+                                    <a href="#portfolio" class="page-scroll" > 
+                                    <h4 class="media-heading">Conoce más de Transponder GPS</h4></a>   
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-4 -->
+                    
+                   
+                    
+                       
+                    
+                    
+                    
+                    
+                </div><!-- /.row --> <!-- /Cierra funciones -->
+            
+            </div><!-- /.container -->
+        </section>
+        <!-- End Feature Section -->						
+           
+           
+         <!-- VER TODAS LAS FUNCIONES -->                                                   
+      <!-- VER TODAS LAS FUNCIONES-->
+        <div class="section-modal modal fade" id="portfolio-modalfun" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+            
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <h3>Ver todas las funciones</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-md-12">
+                           
+                            <br>
+                        </div>
+                        
+                    </div><!-- /.row -->
+                </div>                
+            </div>
+        </div>
+        <!-- /  puntos de interes   --> 
+    
+
+        
+        
+    											<!--IMAGENES FAMILIA, SEGURIDAD, ETC.
+     <section class="fun-facts">
+        <div class="container">
+        
+          	    <div class="row">
+           			 <div class="col-md-12">
+                        <div class="section-title text-center">
+                            <h3 class="white3">Plataforma de Rastreo GPS flexible y adaptable a cada necesidad .</h3>
+                            <p></p>
+                        </div>                        
+                    </div>
+                </div>
+                
+                
+                 <div class="row">
+           			 <div class="col-md-12">
+                       
+                        <div class="col-md-3">
+                         <img src="images/flotillas.jpg" class="img-thumbnail img-responsive" alt="Flotillas">
+                         <p class="text-center txtblanco">Control de Flotillas</p>      
+                  	 	 </div>
+                         <div class="col-md-3">
+                         <img src="images/familia.jpg" class="img-thumbnail img-responsive" alt="Flotillas">  
+                         <p class="text-center txtblanco">Protección Familiar</p>     
+                  	 	 </div>
+                          <div class="col-md-3">
+                         <img src="images/seguridad.jpg" class="img-thumbnail img-responsive" alt="Flotillas">  
+                         <p class="text-center txtblanco">Seguridad</p>     
+                  	 	 </div>
+                          <div class="col-md-3">
+                         <img src="images/personal.jpg" class="img-thumbnail img-responsive" alt="Flotillas">  
+                         <p class="text-center txtblanco">Monitoreo de personal</p>   <br>  <br>  
+                  	 	 </div>
+                         <div class="col-md-12">  
+                         <p class="text-center txtblanco2">Entre muchas otras aplicaciones más…</p>     
+                  	 	 </div>
+                       
+                                               
+                    </div>
+                </div>
+            
+            
+              
+                 
+            </div>
+        </div>
+    </section> -->
+    
+   
+  
+
+    
+    
+     												<!-- INTERFAZ CARRUSEL-->
+                                                    
+        <section id="portfolio" class="portfolio-section-1">
+            <div class="container">
+            
+            
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title text-center">
+                            <h2 style="font-family:'Oswald', sans-serif; color:#666; font-size:30px; line-height:40px; text-transform:none;">Plataforma de Rastreo GPS y Telemetría moderna e innovadora</h2>
+                            <p style="line-height:25px;">Interfaz amigable de última tecnología que permite al usuario experimentar comodidad, rapidez y eficiencia en el trabajo diario de la empresa. </p>
+                        </div>                        
+                    </div>
+                </div>
+                
+                   
+           <div class="row"> <!-- carrusel imagenes--> 
+		<div class="col-md-12">
+                <div id="Carousel" class="carousel slide">
+                 
+                <ol class="carousel-indicators">
+                    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#Carousel" data-slide-to="1"></li>
+                    <li data-target="#Carousel" data-slide-to="2"></li>
+                    <li data-target="#Carousel" data-slide-to="3"></li>
+                </ol>
+                 
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    
+                <div class="item active">
+                	<div class="row">
+                	  <div class="col-md-6"><a href="#portfolio-modal" data-toggle="modal" class="link-1 thumbnail"><img src="images/portfolio/interfaz.jpg" alt="imagen interfaz" style="max-width:100%;"> </a></div>
+                	  <div class="col-md-6"><a href="#portfolio-modal2" data-toggle="modal" class="link-1 thumbnail"><img src="images/portfolio/seguimiento.jpg" alt="imagen seguimiento" style="max-width:100%;"></a></div>
+                	</div><!--.row-->
+                </div><!--.item-->
+                 
+                <div class="item">
+                	<div class="row">
+                		<div class="col-md-6"><a href="#portfolio-modal3" data-toggle="modal" class="link-1 thumbnail"><img src="images/portfolio/geocercas.jpg" alt="Imagen geocercas" style="max-width:100%;"></a></div>
+                		<div class="col-md-6"><a href="#portfolio-modal4" data-toggle="modal" class="link-1 thumbnail"><img src="images/portfolio/Despacho-de-tareas.jpg" alt="Imagen de despacho de tareas" style="max-width:100%;"></a></div>
+                	</div><!--.row-->
+                </div><!--.item-->
+                 
+                <div class="item">
+                	<div class="row">
+                	<div class="col-md-6"><a href="#portfolio-modal5" data-toggle="modal" class="link-1 thumbnail"><img src="images/portfolio/comportamiento-del-conductor.jpg" alt="Imagen de comportamiento del conductor" style="max-width:100%;"></a></div>
+                		<div class="col-md-6"><a href="#portfolio-modal6" data-toggle="modal" class="link-1 thumbnail"><img src="images/portfolio/mantenimientos.jpg" alt="Image" style="max-width:100%;"></a></div>
+                	</div><!--.row-->
+                </div><!--.item-->
+                
+                 <div class="item">
+                	<div class="row">
+                		<div class="col-md-6"><a href="#portfolio-modal7" data-toggle="modal" class="link-1 thumbnail"><img src="images/portfolio/Reportes.jpg" alt="Imagen de reportes" style="max-width:100%;"></a></div>
+                		<div class="col-md-6"><a href="#portfolio-modal8" data-toggle="modal" class="link-1 thumbnail"><img src="images/portfolio/puntos-de-interes.jpg" alt="Imagen de puntos de interes" style="max-width:100%;"></a></div>
+                	</div><!--.row-->
+                </div><!--.item-->
+                
+                 <br> 
+                </div><!--.carousel-inner-->
+                  <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
+                  <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
+                </div><!--.Carousel-->
+                 
+		</div>
+	</div>  <!--/carrusel imagenes--> 
+    
+
+
+
+				<div class="col-lg-12 text-center">
+                            <br>
+                            
+                             
+                                <div id="success"> </div>
+                                
+                                
+                                <!--<a href="#portfolio-modalDemo" data-toggle="modal" class="link-1">
+                                <input type="button" name="btnDemo" class="btn btn-primary" value="Solicita tu DEMO ">
+                                </a>-->
+                                
+                                 <a class="btn btn-primary" href="mailto:sales@transpondergps.net?subject=Solicitar-DEMO-Transponder-Web&body=INGRESA-TU%0AEmpresa:%0ANombre-del-contacto:%0ATeléfono:%0ACorreo:%0APaís:%0A">Solicita tu DEMO</a>
+                                 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="http://www.transpondergps.mx/pro/applications/mix/" target="_blank">
+                                <input type="button" name="btnDemo2" class="btn btn-primary" value=" DEMO EN LINEA ">
+                                </a>
+                            </div>
+                        </div>
+          
+            </div>
+        </section>
+        <!-- End Portfolio Section -->
+        
+        
+                          							<!-- IMAGENES SECUNDARIAS -->
+ 
+																	
+<!-- Interfaz general -->
+        <div class="section-modal modal fade" id="portfolio-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+            
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <h3>Interfaz general</h3>
+                            <p>Interfaz de los modulos de transponder y el mapa.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-md-12">
+                            <img src="images/portfolio/imgGrande1.jpg" class="img-responsive center-block" alt="interfaz">
+                        </div>
+                        
+                    </div><!-- /.row -->
+                </div>                
+            </div>
+        </div>
+        <!-- /Interfaz general -->
+        
+    <!-- seguimiento -->
+        <div class="section-modal modal fade" id="portfolio-modal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+            
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <h3>Seguimiento</h3>
+                            <!--<p>Circular, poligonal y de ruta</p>-->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <br>
+                        <div class="col-md-12">
+                            <img src="images/portfolio/seguimiento2.jpg" class="img-responsive center-block" alt="seguimiento">
+                            <br>
+                        </div>
+                        
+                    </div><!-- /.row -->
+                </div>                
+            </div>
+        </div>
+        <!-- /seguimiento-->
+        
+         <!-- Geocercas -->
+        <div class="section-modal modal fade" id="portfolio-modal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+            
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <h3>Geocercas</h3>
+                            <p>Diferentes tipos de geocercas</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-md-12">
+                            <img src="images/portfolio/geocercas2.jpg" class="img-responsive center-block" alt="geocercas">
+                            <br>
+                        </div>
+                        
+                    </div><!-- /.row -->
+                </div>                
+            </div>
+        </div>
+        <!-- / Geocercas  -->
+                                                  
+     <!-- Despacho de tareas -->
+        <div class="section-modal modal fade" id="portfolio-modal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+            
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <h3>Despacho de tareas</h3>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="images/portfolio/Despacho de tareas2.jpg" class="img-responsive center-block" alt="despacho de tareas">
+                            <br>
+                        </div>
+                        
+                    </div><!-- /.row -->
+                </div>                
+            </div>
+        </div>
+        <!-- / Despacho de tareas  -->  
+        
+        <!-- comportamiento del conductor -->
+        <div class="section-modal modal fade" id="portfolio-modal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+            
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <h3>Comportamiento del conductor</h3>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        
+                        <div class="col-md-12">
+                            <img src="images/portfolio/comportamiento del conductor2.jpg" class="img-responsive center-block" alt="comportamiento del conductor">
+                            <br>
+                        </div>
+                        
+                    </div><!-- /.row -->
+                </div>                
+            </div>
+        </div>
+        <!-- / comportamiento del conductor  -->  
+        
+         <!-- programacion de mantenimientos -->
+        <div class="section-modal modal fade" id="portfolio-modal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+            
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <h3>Programación de mantenimientos</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-md-12">
+                            <img src="images/portfolio/mantenimientos2.jpg" class="img-responsive center-block" alt="mantenimiento">
+                            <br>
+                        </div>
+                        
+                    </div><!-- /.row -->
+                </div>                
+            </div>
+        </div>
+        <!-- /  programacion de mantenimientos  -->   
+        
+         <!-- Reportes -->
+        <div class="section-modal modal fade" id="portfolio-modal7" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+            
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <h3>Reportes</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-md-12">
+                            <img src="images/portfolio/Reportes2.jpg" class="img-responsive center-block" alt="reportes">
+                            <br>
+                        </div>
+                        
+                    </div><!-- /.row -->
+                </div>                
+            </div>
+        </div>
+        <!-- /  Reportes   -->   
+        
+          <!-- puntos de interes -->
+        <div class="section-modal modal fade" id="portfolio-modal8" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+            
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <h3>Puntos de interes</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-md-12">
+                            <img src="images/portfolio/puntos de interes2.jpg" class="img-responsive center-block" alt="puntos de interes">
+                            <br>
+                        </div>
+                        
+                    </div><!-- /.row -->
+                </div>                
+            </div>
+        </div>
+        <!-- /  puntos de interes   -->   
+        
+        	
+            
+            <!-- DEMO -->
+                                                                        
+        <div class="section-modal modal fade" id="portfolio-modalDemo" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+            
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <h3>¡Prueba gratis por 30 días y conoce todas las ventajas que tiene para tu empresa!</h3>
+                            <p>Dejanos tus datos, te contactaremos lo mas pronto posible.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <form method="post" name="contactform" id="contactform" action="sendDemo.php">
+                        <div class="col-md-6">
+                                <img src="images/portfolio/demo-compu.jpg" class="img-responsive" alt="demo Interfaz">
+                        </div>
+                        
+                             <div class="col-md-6">
+                             	<div class="form-group">
+                                <br><br>
+                                    <input type="text" class="form-control" placeholder="Empresa:" name="empresa" required >
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Nombre de Contacto:" name="nombre" required >
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" class="form-control" placeholder="Telefono:" name="phone" required >
+                                    <p class="help-block text-danger"></p>
+                                </div>
+	                             <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Correo electronico:" name="mail" required >
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                     <input type="text" class="form-control" placeholder="Estado, País:" name="pais" required >
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            
+                            <div class="clearfix"></div>
+                            
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <input type="submit" name="submit" class="btn btn-primary" id="submit" value="Enviar Datos">
+                            </div>
+                        </div>
+                    </form>
+                        
+                    </div><!-- /.row -->
+                </div>                
+            </div>
+        </div>
+        <!-- /  DEMO  -->  
+        
+        
+ 
+                   
+                                 
+                                 
+                                           <!-- APLICACIONES MOVILES -->
+        <section  id="apps"  class="call-to-action">
+            <div class="container">
+            	
+                  <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title text-center">
+                            <h2 style="font-family:'Oswald', sans-serif; color:#666; font-size:30px; line-height:40px; text-transform:none;">Apps Móviles para rastreo GPS</h2>
+                            <p>Control y monitoreo de activos en todo momento desde dispositivos móviles. </p>
+                        </div>                        
+                    </div>
+                    
+                   
+                
+                
+                 <div class="row">
+                    <div class="col-md-3">
+                        <div class="">
+                           <img src="images/ios-android-apps.png" class="img-responsive" alt="ios, android apps ">
+                        </div>                         
+                   </div>
+                   
+                   
+                    <div class="col-md-6">
+                        <div class="text-justify black section-title2">
+                       
+                        <h3>X-GPS Tracker: <a href="https://play.google.com/store/apps/details?id=com.navixy.xgps.tracker&hl=en" target="_blank"> <img src="images/icons-apple-android.png" alt="app X-GPS Tracker"></a> <a href="https://itunes.apple.com/us/app/x-gps-treker/id802887190" target="_blank"><img src="images/apple.png" alt="app X-GPS Tracker"></a></h3>
+                           <p>Convierte celulares y Tabletas en equipos de rastreo GPS de manera simple con esta APP. Te permitirá conocer la ubicación exacta de tus empleados, asignar tareas y compartir archivos. También la podrás utilizar para seguimiento de familiares y podrás chatear con ellos. <br><br></p>
+                        </div> 
+                        
+                        <div class="text-justify black section-title2">
+                        <h3>X-GPS Monitor: <a href="https://play.google.com/store/apps/details?id=com.navixy.xgps.client.app" target="_blank"> <img src="images/icons-apple-android.png" alt="app X-GPS Tracker"></a> <a href="https://itunes.apple.com/us/app/navixy-viewer/id883610994?ls=1&mt=8" target="_blank"><img src="images/apple.png" alt="app X-GPS Tracker"></a></h3>
+                           <p>Monitorea y localiza tus activos desde la comodidad de tus dispositivos móviles. Con esta App siempre estarás enterado donde están tus vehículos, empleados, familiares o mascotas sin importar en donde te encuentres. Podrás recibir alertas y acceder a la información que necesitas en segundos. </p>
+                        </div>                    
+                   </div>
+                   
+                    <div class="col-md-3">
+                        <div class="">
+                           <img src="images/ios-android-apps-tablet.png" class="img-responsive" alt="ios, android tablet apps ">
+                        </div>                         
+                   </div>
+                </div>
+                
+                
+                
+               
+            </div>
+        </section>
+        <!-- End Feature Section -->
+                                 
+                                 
+                                             
+                                                  <!-- COTIZACION -->
+
+  <!-- Start Pricing Table Section  -->
+    <div id="pricing" class="pricing-section">
+        <div class="container">
+        
+     
+                    <div class="col-md-12">
+                        <div class="section-title text-center">
+                            <h2 class="white-text" style="font-family:'Oswald', sans-serif; color:white; font-size:30px; line-height:40px; text-transform:none;">Software de rastreo GPS adaptable a sus necesidades</h2>
+                            <br>
+                        </div>                        
+                    </div>
+        
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <div class="section-title text-center">
+                            <h3>¿Tienes una empresa de rastreo GPS u ofreces el servicio de monitoreo?  </h3><br><br>
+                            </div>
+                            
+                            <div class="col-md-8 col-md-offset-2">
+                            <img src="images/servidor.png" class="img-responsive" alt="servidor">
+                            </div>
+                            
+                            <div class="txt5 col-md-12">
+                            <p class="txt5">Te ofrecemos diferentes modalidades especiales para ti, desde servicios en Cloud hasta servicios en nuestros servidores. Pregunta por las opciones disponibles, seguro una se adapta a tus necesidades.</p>
+                            </div>
+                            
+                            <br><br>
+                        </div>
+                        
+                         <div class="col-md-6">
+                         <div class="section-title text-center">
+                            <h3>¿Quieres emprender una empresa de rastreo GPS? ¡Tenemos la mejor solución para ti! </h3><br><br>
+                            </div>
+                            
+                            <div class="col-md-8 col-md-offset-3">
+                            <img src="images/empresa.png" class="img-responsive" alt="empresa">
+                            </div>
+                            
+                            <div class="txt5 col-md-12">
+                            <p class="txt5">Puedes empezar tu negocio fácil y rápido con los paquetes para emprendedores. Te brindamos las herramientas necesarias, te transmitimos la experiencia y los conocimientos necesarios para arrancar tu empresa lo más pronto posible. </p>
+                            </div>
+                            
+                            
+                            <br><br>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            
+             
+             <div class="row">
+            <div class="col-md-12 text-center">
+                            <br><br><br>
+                                <div id="success"> </div>
+                                <!--<a href="#portfolio-modalCoti" data-toggle="modal" class="link-1">
+                                <input type="button" name="btnDemo" class="btn btn-primary" value="Solicitar Cotización ">
+                                </a>-->
+                                <a class="btn btn-primary" href="mailto:sales@transpondergps.net?subject=Solicitar Cotizacion Transponder Web&body=INGRESA TU%0A Tipo de contizacion(Emepresa o emprendedor):%0A Nombre:%0A Correo:%0A País:%0A Teléfono:%0A">Solicitar Cotización</a>
+                            </div>
+                        </div>
+                       </div>  
+            
+                    
+        </div> <!-- /container-->
+    </div>
+    <!-- End Pricing Table Section -->
+    
+    
+    <!-- COTIZACION -->
+    	<!-- COTIZACION -->
+                                                                        
+        <div class="section-modal modal fade" id="portfolio-modalCoti" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+            
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <h3>¡Los mejores planes y tarifas que se ajustan a tus necesidades, tenemos la mejor opción para ti!</h3>
+                            <p>Dejanos tus datos, te contactaremos lo mas pronto posible.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                    
+                    
+                         <form method="post" name="contactform" id="contactform" action="sendCotizar.php">
+                    
+                        <div class="row">
+                        
+                         <div class="col-md-3 col-md-offset-1">
+                           <img src="images/presupuesto.jpg" class="img-responsive" alt="presupuesto">
+                          </div>
+                            
+                        
+                            <div class="col-md-6 col-md-offset-1">
+                           <div class="form-group">
+                           <select class="form-control" placeholder="Tipo de cotización:" name="tipo" >
+                                          <option value="" disabled selected>Tipo de cotización: </option>
+                                          <option value="Empresa de Rastreo GPS ">Empresa de Rastreo GPS </option>
+                                          <option value="Emprendedor">Emprendedor</option>
+                                        </select> 
+                            </div>
+                            <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Nombre Completo*" name="name"  required >
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Correo*" name="email" required >
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="País y Estado*" name="city" required >
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                 <div class="form-group">
+                                    <input type="number" class="form-control" placeholder="Telefono*" name="phone" required >
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                
+                            </div>
+                            
+                            
+                            
+                           
+                           
+                            
+                             <div class="col-lg-12 text-center"><br>
+                                <div id="success"> </div>
+               <h5 class="white-text2 black"> &nbsp Número de  Unidades a Cotizar: <input type="number" name="uni" min="0" value="0" required> </h5>
+                              <p class="help-block text-danger"></p>
+                                
+                           		 </div>
+                      	    </div>
+                        
+                        
+                            <div class="col-lg-12 text-center">
+                            <br>
+                                <div id="success"> </div>
+                                <input type="submit" name="submit" class="btn btn-primary" id="submit" value="Enviar Cotización">
+                                
+                            </div>
+                        </div>
+                    </form>
+                        
+                    </div><!-- /.row -->
+                    
+                </div>                
+            </div>
+        </div>
+        <!-- /  COTIZACION -->  
+    
+    
+    
+   
+       
+        <!-- Dispositivos soportados -->
+    <section id="partner">
+        <div class="container">
+        
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center">
+                        <h2 style="font-family:'Oswald', sans-serif; color:#666; font-size:30px; line-height:40px; text-transform:none;">Más de 300 dispositivos integrados en nuestra plataforma de rastreo GPS</h2>
+                        <br><br><br><br>
+                    </div>
+                </div>
+            </div>
+            
+          
+            <div class="row">
+                <div class="clients">
+                
+                	<div class="col-md-12">
+                    	<br>
+                        <p>AMGPS</p>
+                    </div>
+                    <div class="col-md-12">
+                    	<br>
+                        <p>Angelstar</p>
+                    </div>
+                    <div class="col-md-12">
+                    	<br>
+                        <p>ATrack</p>
+                    </div>
+                    <div class="col-md-12">
+                    	<br>
+                        <p>Concox</p>
+                    </div>
+                     
+                     <div class="col-md-12">
+                    	<br>
+                        <p>Coban</p>
+                    </div>
+                     <div class="col-md-12">
+                    	<br>
+                        <p>CalAmp</p>
+                    </div>
+                     <div class="col-md-12">
+                    	<br>
+                        <p>Teltonika</p>
+                    </div>
+                     <div class="col-md-12">
+                    	<br>
+                        <p>SkyPatrol</p>
+                    </div>
+                     <div class="col-md-12">
+                    	<br>
+                        <p>Logosoft</p>
+                    </div>
+                     <div class="col-md-12">
+                    	<br>
+                        <p>3G Electronics</p>
+                    </div>
+                </div> 
+               <a href="#portfolio-modal11" data-toggle="modal" class="link-1">
+               <input type="button" class="btn btn-primary vert" value="Ver todos los dispositivos"> 
+               </a>
+            </div>
+        </div>
+    </section>  <!-- Dispositivos soportados -->
+    
+   
+   <!-- TODOS LOS DISPOSITIVOS-->
+    <!-- Todos los Dispositivos -->
+        <div class="section-modal modal fade" id="portfolio-modal11" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+            
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <h3>Dispositivos integrados en nuestra plataforma de rastreo GPS</h3>
+                        </div>
+                    </div>
+                    <br>
+              <div class="texInt">    
+                    <div class="row">
+              <div class="col-md-12">
+                <div class="col-md-2 dd"><br><p>AMGPS</p></div>
+                <div class="col-md-2 dd"><br><p>Angelstar</p></div>
+                <div class="col-md-2 dd"><br><p>Arknav</p></div>
+                <div class="col-md-2 dd"><br><p>Arusnavi</p></div>
+                <div class="col-md-2 dd"><br><p>ASC</p></div>
+                <div class="col-md-2 dd"><br><p>ATOL</p></div>
+                <div class="col-md-2 dd"><br><p>ATrack</p></div>
+                <div class="col-md-2 dd"><br><p>Auto Leaders</p></div>
+                <div class="col-md-2 dd"><br><p>Autofon</p></div>
+                <div class="col-md-2 dd"><br><p>Autolink</p></div>
+                <div class="col-md-2 dd"><br><p>BCE</p></div>
+                <div class="col-md-2 dd"><br><p>Bitrek</p></div>
+                <div class="col-md-2 dd"><br><p>Bofan</p></div>
+                <div class="col-md-2 dd"><br><p>CalAmp</p></div>
+                <div class="col-md-2 dd"><br><p>Carscop</p></div>
+                <div class="col-md-2 dd"><br><p>Castel</p></div>
+                <div class="col-md-2 dd"><br><p>Cellocator</p></div>
+                <div class="col-md-2 dd"><br><p>cGuard</p></div>
+                <div class="col-md-2 dd"><br><p>Coban</p></div>
+                <div class="col-md-2 dd"><br><p>Concox</p></div>
+                <div class="col-md-2 dd"><br><p>Defenstar</p></div>
+                <div class="col-md-5 dd"><br><p>Digital Communications Technologies</p></div>
+                <div class="col-md-2 dd"><br><p>Diwei</p></div>
+                <div class="col-md-2 dd"><br><p>E-Track</p></div>
+                <div class="col-md-2 dd"><br><p>Eelink</p></div>
+                <div class="col-md-2 dd"><br><p>Enfora</p></div>
+                <div class="col-md-2 dd"><br><p>Era Glonass</p></div>
+                <div class="col-md-2 dd"><br><p>Escort</p></div>
+                <div class="col-md-2 dd"><br><p>EzLink</p></div>
+                <div class="col-md-2 dd"><br><p>fifotrack</p></div>
+                <div class="col-md-2 dd"><br><p>Findlo</p></div>
+                <div class="col-md-2 dd"><br><p>Fort Telecom</p></div>
+                <div class="col-md-2 dd"><br><p>GalileoSky</p></div>
+                <div class="col-md-2 dd"><br><p>Globalsat</p></div>
+                <div class="col-md-2 dd"><br><p>Globalstar</p></div>
+                <div class="col-md-2 dd"><br><p>GoSafe</p></div>
+                <div class="col-md-2 dd"><br><p>GoTop</p></div>
+                <div class="col-md-2 dd"><br><p>GSS</p></div>
+                <div class="col-md-2 dd"><br><p>Gubloos</p></div>
+                <div class="col-md-2 dd"><br><p>Huabao</p></div>
+                <div class="col-md-2 dd"><br><p>Incotex</p></div>
+                <div class="col-md-2 dd"><br><p>Jimi</p></div>
+                <div class="col-md-2 dd"><br><p>Jointech</p></div>
+                <div class="col-md-2 dd"><br><p>Kasbi</p></div>
+                <div class="col-md-2 dd"><br><p>Keson</p></div>
+                <div class="col-md-2 dd"><br><p>Laipac</p></div>
+                <div class="col-md-2 dd"><br><p>Lell</p></div>
+                <div class="col-md-2 dd"><br><p>Logosoft</p></div>
+                <div class="col-md-2 dd"><br><p>Meiligao</p></div>
+                <div class="col-md-2 dd"><br><p>Meitrack</p></div>
+                <div class="col-md-2 dd"><br><p>MiniFinder</p></div>
+                <div class="col-md-2 dd"><br><p>Moralwinhk</p></div>
+                <div class="col-md-2 dd"><br><p>Navion</p></div>
+                <div class="col-md-2 dd"><br><p>Naviset</p></div>
+                <div class="col-md-2 dd"><br><p>Navixy</p></div>
+                <div class="col-md-2 dd"><br><p>Navtrack</p></div>
+                <div class="col-md-2 dd"><br><p>Novacom</p></div>
+                <div class="col-md-2 dd"><br><p>NVS</p></div>
+                <div class="col-md-2 dd"><br><p>Omnicomm</p></div>
+                <div class="col-md-2 dd"><br><p>Opekun</p></div>
+                <div class="col-md-2 dd"><br><p>Orion</p></div>
+                <div class="col-md-2 dd"><br><p>Pingstar</p></div>
+                <div class="col-md-2 dd"><br><p>Portman</p></div>
+                <div class="col-md-2 dd"><br><p>Queclink</p></div>
+                <div class="col-md-2 dd"><br><p>RedView</p></div>
+                <div class="col-md-2 dd"><br><p>Ruptela</p></div>
+                <div class="col-md-2 dd"><br><p>Scat</p></div>
+                <div class="col-md-2 dd"><br><p>Scout</p></div>
+                <div class="col-md-2 dd"><br><p>SenseIT</p></div>
+                <div class="col-md-2 dd"><br><p>Shtrikh</p></div>
+                <div class="col-md-2 dd"><br><p>SKAT</p></div>
+                <div class="col-md-2 dd"><br><p>SkyPatrol</p></div>
+                <div class="col-md-2 dd"><br><p>ST</p></div>
+                <div class="col-md-2 dd"><br><p>Starcom</p></div>
+                <div class="col-md-2 dd"><br><p>Storozh-GPS</p></div>
+                <div class="col-md-2 dd"><br><p>Suntech</p></div>
+                <div class="col-md-4 dd"><br><p>Technoautomatica</p></div>
+                <div class="col-md-2 dd"><br><p>Teltonika</p></div>
+                <div class="col-md-2 dd"><br><p>TopFlyTech</p></div>
+                <div class="col-md-2 dd"><br><p>Topten</p></div>
+                <div class="col-md-2 dd"><br><p>TotemTech</p></div>
+                <div class="col-md-4 dd"><br><p>Tracker Technology</p></div>
+                <div class="col-md-2 dd"><br><p>Tramigo</p></div>
+                <div class="col-md-2 dd"><br><p>Wonde Proud</p></div>
+                <div class="col-md-2 dd"><br><p>Xexun</p></div>
+                <div class="col-md-2 dd"><br><p>Xirgo</p></div>
+                <div class="col-md-4 dd"><br><p>ZY Electronic Technology</p></div>
+                <div class="col-md-2 dd"><br><p>3G Electronics</p></div>
+              </div>   
+                    </div><!-- /.row -->
+              </div>      <!-- /.text interior -->  
+                </div>                
+            </div>
+        </div>
+       <!-- /Todos los Dispositivos -->
+
+
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <h2 class="white-text" style="font-family:'Oswald', sans-serif; color:white; font-size:30px; line-height:40px; text-transform:none;">Contactanos</h2>
+                        <h4 class="white-text">Nos pondremos en contacto lo antes posible! </h4>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="row">
+                <div class="col-lg-12">
+                   <!-- <form method="post" name="contactform" id="contactform" action="sendContact.php">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Nombre*" name="name" required >
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Correo*" name="email" required >
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" class="form-control" placeholder="Telefono*" name="phone" required >
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                            
+                             <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="País*" name="pais" required >
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Mensaje*" name="message" required ></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <input type="submit" name="submit" class="btn btn-primary" id="submit" value="Enviar mensaje">
+                            </div>
+                        </div>
+                    </form>
+                    -->
+                    <div class="col-lg-12 text-center">
+                    <a class="btn btn-primary" href="mailto:sales@transpondergps.net?subject=Contacto Transponder Web&body=INGRESA TU%0A Nombre:%0A Correo:%0A Teléfono:%0A País:%0A Mensaje:%0A">Enviar mensaje</a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-contact-info">
+                        <h4>SANDIEGO</h4>
+                        <ul>
+                     	    <li class="ubi"><strong>Dirección:</strong> 2498 Roll Drive Ste. 216 San Diego CA, 92154</li>
+                            <li><strong>Correo:</strong> sales@transpondergps.net</li>
+                            <li><strong>Tel:</strong> +1 (619) 730-6242</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-offset-4">
+                    <div class="footer-contact-info">
+                        <h4>TIJUANA</h4>
+                        <ul>
+                            <li class="ubi"><strong>Dirección:</strong> Blvd Aguacaliente 10470 Interior 1 Colonia Revolución</li>
+                            <li><strong>Correo:</strong> sales@transpondergps.net</li>
+                            <li><strong>Tel:</strong> +52 (664) 686-1830</li>
+                            <li><strong>Tel:</strong>  +52 (664) 623-8651</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <footer class="style-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                        <span class="copyright">Copyright &copy; <a href="http://www.prossea.com"> PROSSEA</a> 2016</span>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="footer-social text-center">
+                            <ul>
+                                <li><a href="https://twitter.com/ProsseaC" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/ProsseaC/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/prossea-c-623548a8?trk=nav_responsive_tab_profile_pic" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://www.youtube.com/watch?v=W12U6DKL4H0" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="footer-link">
+                            <ul class="pull-right">
+                                <li><a href="terminos.html">Política de Privacidad</a>
+                                </li>
+                                <li><a href="terminos.html">Términos y Condiciones</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+    <div id="loader">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+	
+   
+   
+
+    <!-- jQuery Version 2.1.1 -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="asset/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/count-to.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.fitvids.js"></script>
+	<script src="js/styleswitcher.js"></script>
+    
+    <!-- TOOLTIP -->
+    <script src="js/bootstrapx-clickover.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/script.js"></script>
+    
+    <!-- Chat de la pag. -->
+	<script type="text/javascript">
+	var $zoho= $zoho || {salesiq:{values:{},ready:function(){}}};var d=document;s=d.createElement("script");s.type="text/javascript";
+	s.defer=true;s.src="https://salesiq.zoho.com/transponder/float.ls?embedname=transponder";
+	t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);
+	</script>
+ 
+ 	<!-- TOOLTIP -->
+    <script type="text/javascript">
+      $(function() { 
+          $('[rel="clickover"]').clickover(); 
+
+          $('#auto-close-co').clickover({
+            auto_close: 15 * 1000            
+          });
+
+          $('#no-global-co').clickover({ global_close: false });
+
+          $('#shown-co').clickover({
+            onShown: function () { alert("Hello from clickover"); }
+          });
+
+          $('#set-tall-skinny').clickover({ width: 1000, height: 300 });
+
+          $('#no-esc').clickover({
+            placement: 'top',
+            esc_close: 0
+          });
+      })
+    </script>
+    
+    	<!-- carrosel imagenes -->
+    <script type="text/javascript">
+     $(document).ready(function() {
+    $('#Carousel').carousel({
+        interval: 5000
+    })
+});
+    </script>
+
+
+
+</body>
+
+</html>

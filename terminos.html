@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>TransponderGPS: Software de Rastreo GPS</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    
+    
+    <!-- Animate CSS -->
+    <link href="css/animate.css" rel="stylesheet" >
+    
+    <!-- Owl-Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.css" >
+    <link rel="stylesheet" href="css/owl.theme.css" >
+    <link rel="stylesheet" href="css/owl.transitions.css" >
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="images/iso.png" />
+    
+    <!-- Colors CSS -->
+    <link rel="stylesheet" type="text/css" href="css/color/green.css">
+    
+    
+    
+    
+    <!-- Colors CSS -->
+    <!--<link rel="stylesheet" type="text/css" href="css/color/green.css" title="green">
+    <link rel="stylesheet" type="text/css" href="css/color/light-red.css" title="light-red">-->
+    <link rel="stylesheet" type="text/css" href="css/color/blue.css" title="blue">
+    <!--<link rel="stylesheet" type="text/css" href="css/color/light-blue.css" title="light-blue">
+    <link rel="stylesheet" type="text/css" href="css/color/yellow.css" title="yellow">
+    <link rel="stylesheet" type="text/css" href="css/color/light-green.css" title="light-green">-->
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    
+    
+    <!-- Modernizer js -->
+    <script src="js/modernizr.custom.js"></script>
+
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78916131-3', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</head>
+
+<body class="index">
+    
+    
+    <!-- Styleswitcher
+================================================== 
+        <div class="colors-switcher">
+            <a id="show-panel" class="hide-panel"><i class="fa fa-tint"></i></a>        
+                <ul class="colors-list">
+                    <li><a title="Light Red" onClick="setActiveStyleSheet('light-red'); return false;" class="light-red"></a></li>
+                    <li><a title="Blue" class="blue" onClick="setActiveStyleSheet('blue'); return false;"></a></li>
+                    <li class="no-margin"><a title="Light Blue" onClick="setActiveStyleSheet('light-blue'); return false;" class="light-blue"></a></li>
+                    <li><a title="Green" class="green" onClick="setActiveStyleSheet('green'); return false;"></a></li>
+                    
+                    <li class="no-margin"><a title="light-green" class="light-green" onClick="setActiveStyleSheet('light-green'); return false;"></a></li>
+                    <li><a title="Yellow" class="yellow" onClick="setActiveStyleSheet('yellow'); return false;"></a></li>
+                    
+                </ul>
+
+        </div>  
+<!-- Styleswitcher End
+================================================== -->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html"><img src="images/Logotranponder.png" alt=""></a>
+            </div>
+            
+             <style>
+            .dropdown-menu { background-color:black;
+			text-align:right;}
+			
+			.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu > .active > a:hover { background-color: transparent;}
+			
+			.dropdown>a:hover, .dropdown>a:focus { 
+			color: #097fd4 !important;
+			background-color:transparent !important;}
+			
+			.dropdown > .active > a:hover { color:red !important;}
+            </style>
+
+               <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="index.html"></a>
+                    </li>
+                     <li>
+                        <a class="page-scroll" href="index.html#feature">Ventajas</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#service">Funciones</a>
+                    </li>
+                    <li class="dropdown">
+        				 <a class="page-scroll" data-toggle="dropdown" href="#">Tour <span class="caret"></span></a>
+      				  <ul class="dropdown-menu">
+         			 	<li><a href="index.html#portfolio" class="page-scroll">Interfaz</a></li> 
+                        <li><a href="weblocator.html">Weblocator</a></li>
+                        <li><a href="Mensajeria.html">Mensajería en el mapa</a></li>
+        			 </ul>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#apps">App Móviles</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#pricing">Cotización</a>
+                    </li>
+                    
+                    <li class="dropdown">
+        				 <a class="page-scroll" data-toggle="dropdown" href="#">Soluciones <span class="caret"></span></a>
+      				  <ul class="dropdown-menu">
+         			 	<li><a href="http://www.prossea.com/simulador.html#dispo" target="_blank">Dispositivos</a></li> 
+                        <li><a href="http://www.prossea.com/simulador.html#dispo">SIM's</a></li>
+        			 </ul>
+                    </li>
+                    
+                    <li>
+                        <a class="page-scroll" href="index.html#contact">Contacto</a>
+                    </li>
+                     <li>
+                        <a class="page-scroll" href="http://www.transpondergps.mx/login/" target="_blank">Login</a>
+                    </li>
+                    <!--<li>
+                        <a class="page-scroll" href="http://www.transpondergps.net/" target="_blank"><div class="fa fa-user"></div> Login</a>
+                    </li>-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    
+    
+  <style>
+        
+        #service h4 {
+			margin-top:30px;
+			}
+		
+	.call-to-action2 h3 {
+		font-size:4em;
+		color:white;
+			}
+			
+        </style>
+
+        
+    
+      <!-- Start Call to Action Section -->
+    <section class="call-to-action2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                <div class="section-title2 text-center">
+                <br><br>
+                <h3>Terminos y Condiciones</h3> <br>
+                <br>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Call to Action Section -->
+    
+    
+  
+        <style>
+        
+        #service h4 {
+			margin-top:30px;
+			}
+			
+		.section-title3 a{
+			color:blue;
+			}
+			
+		.section-title3	
+			a:hover,
+			a:focus,
+			a:active,
+			a.active {
+			
+			color:orange;
+			}	
+
+			
+        </style>
+        
+    
+    
+      
+    								
+    <!-- Start Feature Section -->
+        <section id="service" class="services-section1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title3">
+                        <br> <br> <br> <br>
+                        <p>La siguiente delimita y resume conocimientos generales, acuerdos y extensiones a sub temas en los servicios de la empresa Productos y Servicios Aplicados Corporativos S de R.L. C.V. que denominaremos en este Acuerdo de Servicios “Prossea Corp. de México” o “Prossea” a sus clientes globales.
+Aquí Prossea Corp. de México provee con definición en donde sus servicios son proveídos y limitados, que bajo ninguna circunstancia deberá ser permitido a su propia interpretación por omisión, no mención o asumir; Prossea Corp. de México no tendrá responsabilidad sobre las consecuencias que se derivarán de asumir por parte del Cliente ni compensar por prejuicios iniciados, continuados o enviados a procedimientos legales para el propósito de rembolso, crédito o compensación.
+</p>
+<br>
+ <h3>Sub tópico - Fecha efectiva</h3>
+ <p>La fecha de servicio es efectiva sobre el conocimiento de estos Términos y Condiciones para los servicios que Prossea Corp. de México provee y que acompañan este SAF una vez el cliente contrate nuestros servicios de manera en línea o directamente con un ejecutivo.</p>
+ <br>
+ <h3>Sub tópico - Plataformas</h3>
+  <p>El servicio estará disponible al cliente solo cuando esté disponible. El cliente entiende que las plataformas comercializadas por Prossea Corp de Mexico son plataformas basadas en Web, y que por su significado deberá ser responsable por el propio equipamiento para hacer uso del costo y gasto del propio cliente. El cliente entiende que todos los gastos resultantes por uso impropio o errores serán cubiertos por este SAF. El cliente entiende que modificaciones y mejoras de vez en cuando pueden ser hechas por los proveedores de Prossea Corp. de México los planes tarifarios de estas plataformas serán pagos mensuales pagados los servicios de manera anticipada por cada licencia requerida se encuentre o no activa la unidad, en los casos de dejar el servicio el cliente contara con 30 días naturales para solicitar su información general ingresada en la plataforma en el transcurso de uso a lo cual deberá solicitar esta información al departamento de soporte técnico pasados estos días se realizara el depurado de dicha información.</p>
+  <br>
+  <h3>Sub Tópico – Ejecutivo de Cuenta y Soporte</h3>
+    <p>Prossea Corp. de México reconoce la necesidad de proveer un ejecutivo de cuenta y un contacto de soporte con el conocimiento y la experiencia necesaria para proveer la satisfacción del cliente, pero el cliente reconoce que la mala interpretación o engaños por el equipo de Prossea Corp. de México no se hace responsable por estos errores y crea un entendimiento y cumplimiento propio para una propia clarificación escrita y explicación por parte del cliente al correo electrónico <a href="mailto:info@prossea.com">info@prossea.com</a> y confirmada por el administrador. El ejecutivo de cuenta es el primer contacto y proveerá con soporte y conocimientos necesarios para el mayor de la plataforma o los manuales de instrucción para su uso, cuando estén disponibles. Asistencia técnica será limitada al producto o servicio proveído por Prossea Corp. de México y limitada a requerimientos de compatibilidad por los productos usados con intensión de aprovechar los servicios de Prossea Corp. de México.</p>
+     <br>
+    <h3>Sub Tópico – Alta de unidades</h3>
+     <p>El cliente al momento de contratar el servicio tendrá acceso a la plataforma en al cual el podrá realizar las altas de sus unidades lo cual lo hace responsable de dichas altas las cuales deberá pagar según lo estipulado en el plan comercial de dicho momento o al que haya llegado acuerdo con prossea la parte correspondiente al mes en acción cuando da de alta dicha unidad y el pago anticipado a inicio del mes a facturar, a lo cual prossea recomienda mantener y cuidar los accesos a la plataforma.</p>
+     <br>
+     <h3>Sub Tópico – Bajas y Cancelaciones</h3>
+      <p>Cuando el cliente decida cancelar o dar de baja el servicio deberá de dar aviso a través de correo electrónico a <a href="mailto:admin@prossea.com">admin@prossea.com</a> o su ejecutivo de cuenta solicitando dicha baja del servicio ya sea de una o más unidades, hasta que no se tenga la solicitud de baja por parte del cliente prossea seguirá realizando el cobro por dicha unidad en plataforma, así mismo pasados 30 días naturales de la fecha del vencimiento de pago prossea entenderá que el cliente no requiere más el servicio el cual abra sido suspendido una vez venza la factura en acción y dado de baja pasado los 30 días naturales después de dicho vencimiento estos mismos 30 días tendrá el cliente para solicitar ante soporte técnico un respaldo de información de su información después de estos 30 días prossea borrara todos los datos a excepción de datos de contacto del cliente así como tampoco facturas a nombre del cliente cerradas y abiertas.</p>
+      <br>
+     <h3>Sub Tópico – Facturación, Cargos y Disputas</h3>
+     <p>Prossea Corp. de México es responsable de elaborar comprobante al inicio del mes por los cargos del mes corriente y todos cargos incurridos en meses previos o costos incurridos antes de la facturación corriente. El cliente reconoce que este comprobante es de pago a la recepción del mismo Prossea Corp de México incluirá el día límite de pago para no incurrir en cancelación o perdida de servicio y/o intereses en un tarifa mensual de uno punto cinco por ciento (3.5%) o el máximo permitido por la ley, cualquiera que sea menor. Prossea Corp. de México está basada en México, todos los impuestos y gasto que el Cliente puede incurrir dentro del país de origen serán completa responsabilidad del cliente. Todas las disputas sobre facturación podrán expedir el límite de pago hasta 15 días de la fecha estipulada en la factura y solo bajo explicación escrita las bases para la disputa dentro de los límites de día para pagos en las facturas, y reconocimiento por Prossea Corp. de México al enviarlo al correo <a href="mailto:info@prossea.com"> info@prossea.com </a>y confirmado por el Administrador. El cliente Global reconoce que la suspensión como resultado de un pago tardío y es limitado a los fondos que estén disponibles a Prossea Corp. de México en el método de pago pre asignado, el cliente no hará responsable a Prossea Corp de Mexico por la pérdida de señal que resulte por la suspensión del servicio por este método. Prossea Corp. de México no está obligada a extender el número de días de pago sin la provisión de un recibo que garantice el pago a través de los diferentes métodos de pago de Prossea. Siendo que Prossea Corp. de México facture antes de realizar envíos, las cantidades deben ser pagadas por adelantado, cualquier reclamo a esto debe ser enviado dentro de los siguientes 15 días de la fecha de pago. </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                    
+            </div><!-- /.container -->
+        </section>
+        <!-- End Feature Section -->
+    
+    
+        
+        
+        
+        
+        <footer class="style-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                        <span class="copyright">Copyright &copy; <a href="http://www.prossea.com" target="_blank"> PROSSEA</a> 2016</span>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="footer-social text-center">
+                            <ul>
+                                <li><a href="https://twitter.com/ProsseaC" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/ProsseaC/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/prossea-c-623548a8?trk=nav_responsive_tab_profile_pic" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://www.youtube.com/watch?v=W12U6DKL4H0" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="footer-link">
+                            <ul class="pull-right">
+                                <li><a href="#">Política de Privacidad</a>
+                                </li>
+                                <li><a href="#">Términos y Condiciones</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+    <div id="loader">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+
+    
+
+    <!-- jQuery Version 2.1.1 -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="asset/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/count-to.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.fitvids.js"></script>
+	<script src="js/styleswitcher.js"></script>
+
+    <!-- Contact Form JavaScript
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
